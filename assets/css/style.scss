@@ -1,0 +1,92 @@
+---
+---
+
+@import "minima";
+
+// Custom styles for the Statistical Transport Talk Series
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1 {
+  color: #c41230; // CMU red
+  border-bottom: 2px solid #c41230;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #555;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #666;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+
+  td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+}
+
+.site-header {
+  border-top: 5px solid #c41230;
+}
+
+// Style for the "When/Where" info at the top
+p strong {
+  color: #c41230;
+}
+
+// Abstract paragraphs
+h3 + p strong {
+  display: block;
+  margin: 10px 0 5px 0;
+  color: #555;
+}
+
+// Add some spacing around sections
+hr {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+// Style for upcoming talks table
+table {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+// Contact section
+#contact + p {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 4px solid #c41230;
+}
