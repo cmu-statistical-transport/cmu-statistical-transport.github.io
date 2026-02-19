@@ -22,7 +22,6 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 02/23/2026 | Jiequn Han | Flatiron Institute | TBA |
 | 03/09/2026 | Junho Lee | CMU | TBA |
 | 03/23/2026 | Romain Lopez | NYU | TBA |
 | 04/13/2026 | Nicolas Garcia Trillos | UW Madison | TBA |
@@ -33,6 +32,7 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 ### 02/23/2026 - Jiequn Han - Flatiron Institute ###
 
 **Generative Modeling without Clean Data: Self-Consistent Transport under Black-Box Corruptions**
+
 Generative modeling aims to learn an underlying data distribution from samples. In many scientific and engineering settings, however, clean samples are never observed; instead, data are available only after passing through a noisy, possibly nonlinear and ill-conditioned corruption channel. The challenge is therefore to learn a generative model for the clean distribution using only corrupted observations and access to the forward process.
 
 In this talk, I introduce the Self-Consistent Stochastic Interpolant (SCSI), a transport-based framework that inverts such corruption channels at the level of distributions. The method iteratively refines a transport map so that, when composed with the forward model, it reproduces the observed corrupted distribution. This fixed-point formulation yields an efficient and flexible algorithm requiring only black-box evaluations of the forward operator. We establish convergence guarantees under suitable assumptions and demonstrate strong empirical performance on high-dimensional problems in imaging and scientific reconstruction.
@@ -69,7 +69,7 @@ For the linear assignment approach, we establish recovery guarantees, identifyin
 
 ---
 
-### 10/23/2025 - Andres Riveros - Columbia University , Statistics Department###
+### 10/23/2025 - Andres Riveros - Columbia University , Statistics Department ###
 **Quadratically Regularized Optimal Transport**
 
 In optimal transport, quadratic regularization (QOT) is an alternative to entropic regularization (EOT) when sparse couplings or small regularization parameters are desired. Here, quadratic regularization means that transport couplings are penalized by the squared L2 norm, or equivalently, the χ2 divergence. In this talk, I will present results from two papers (joint work with Alberto González-Sanz and Marcel Nutz) about the analytical properties of the QOT problem. One involves quantifying the behavior of the sparsity of the support as the regularization parameter shrinks, while the other provides an efficient algorithm to compute QOT that avoids some of the few drawbacks of the celebrated Sinkhorn algorithm.
@@ -81,7 +81,7 @@ In optimal transport, quadratic regularization (QOT) is an alternative to entrop
 
 ---
 
-### 09/25/2025 - Sanjit Dandapanthula - CMU, Statistics and Data Science Department ### 
+### 09/25/2025 - Sanjit Dandapanthula - CMU, Department of Statistics and Data Science ### 
 **Gromov-Wasserstein distances between Gaussian distributions**
 
 ---
