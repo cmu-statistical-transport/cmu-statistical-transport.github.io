@@ -44,11 +44,22 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 ---
 
+## Next Talk
+### 02/23/2026 - Jiequn Han###
+**Flatiron Institute**
+**Generative Modeling without Clean Data: Self-Consistent Transport under Black-Box Corruptions**
+Generative modeling aims to learn an underlying data distribution from samples. In many scientific and engineering settings, however, clean samples are never observed; instead, data are available only after passing through a noisy, possibly nonlinear and ill-conditioned corruption channel. The challenge is therefore to learn a generative model for the clean distribution using only corrupted observations and access to the forward process.
+
+In this talk, I introduce the Self-Consistent Stochastic Interpolant (SCSI), a transport-based framework that inverts such corruption channels at the level of distributions. The method iteratively refines a transport map so that, when composed with the forward model, it reproduces the observed corrupted distribution. This fixed-point formulation yields an efficient and flexible algorithm requiring only black-box evaluations of the forward operator. We establish convergence guarantees under suitable assumptions and demonstrate strong empirical performance on high-dimensional problems in imaging and scientific reconstruction.
+
+Joint work with Chirag Modi, Eric Vanden-Eijnden, and Joan Bruna (arXiv:2512.10857).
+
+
 ## Past Talks
 
 ### 02/16/2026 - Alberto Gonzalez Sanz
 **Statistics Department, Columbia University**
-**Title:** Quadratically Regularized Optimal Transport
+**Quadratically Regularized Optimal Transport**
 
 Optimal transport is well known to suffer from the curse of dimensionality: when marginals are approximated from data, empirical optimal transport converges exponentially slowly as the dimension increases. Entropically regularized optimal transport (EOT) avoids this issue and enjoys parametric sample complexity, but at the cost of producing dense couplings and numerical instability for small regularization parameters. Quadratically regularized optimal transport (QOT) offers a compelling alternative, yielding sparse and computationally stable solutions, yet is commonly believed to inherit the curse of dimensionality due to the lack of smoothness and strong concavity in its dual formulation.
 
@@ -58,7 +69,7 @@ In this talk, we show that this belief is false. We prove that QOT also achieves
 
 ### 02/02/2026 - Kyle Schindl
 **Iowa State Statistics Department**
-**Title:** Distributional Discontinuity Design
+** Distributional Discontinuity Design**
 
 We introduce distributional discontinuity design, a framework for studying distributional causal effects for a scalar outcome at the boundary of a discontinuity in treatment assignment (a generalization of the regression discontinuity design). Our causal estimand is the Wasserstein distance between limiting conditional outcome distributions above and below the treatment discontinuity; a single scale-interpretable measure of distribution shift. We show that this weakly bounds the average treatment effect, where equality holds if and only if the treatment effect is purely additive. Moreover, we show that the Wasserstein distance can be decomposed into squared differences in $L$-moments, thereby quantifying the contribution from location, scale, skewness, etc. to the overall distributional distance. This decomposition provides a novel way of encoding the heterogeneity in the treatment effect.
 

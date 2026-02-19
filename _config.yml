@@ -2,7 +2,7 @@
 title: Statistical Transport Talk Series
 description: A seminar series on statistical optimal transport at Carnegie Mellon University
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://cmu-statistical-transport.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
