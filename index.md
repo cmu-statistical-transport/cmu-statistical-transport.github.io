@@ -22,7 +22,7 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 03/09/2026 | Junho Lee | CMU | TBA |
+| 03/09/2026 | JungHo Lee | CMU | TBA |
 | 03/23/2026 | Romain Lopez | NYU | TBA |
 | 04/13/2026 | Nicolas Garcia Trillos | UW Madison | TBA |
 
