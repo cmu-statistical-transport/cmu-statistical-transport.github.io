@@ -29,7 +29,7 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 ## Next Talk
 
-### 03/09/2026 - JungHo Lee - Statistics Department, CMU ###
+### 03/09/2026 - JungHo Lee - Statistics and Data Science, CMU ###
 **Transporting policies across networks via Gromov-Wasserstein optimal transport**
  We consider the problem of learning a treatment rule (policy) in a source population and deploying it in a different target population. This is challenging when the two populations differ substantially and units are connected within each population, since units are not directly comparable across networks and a policy’s welfare can depend on the network-wide treatment assignment pattern (interference). We discuss a potential approach based on Gromov-Wasserstein optimal transport for policy transfer in such settings. The key idea is to align the two populations using relational dissimilarities that (i) summarize interference-relevant structure, and (ii) provide the basis for constructing a Gromov-Wasserstein coupling between the source and target. This talk will mostly be informal.
 ### 02/23/2026 - Jiequn Han - Flatiron Institute ###
