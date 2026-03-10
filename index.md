@@ -22,12 +22,22 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
+
 | 03/23/2026 | Romain Lopez | NYU | TBA |
+| 04/06/2026 | Aram-Alexandre Pooladian | NYU | Yale |
 | 04/13/2026 | Nicolas Garcia Trillos | UW Madison | TBA |
 
 ---
 
 ## Next Talk
+
+### 03/16/2026 -  Sanjit Dandapanthula - CMU ###
+**Towards a theoretical understanding of reward hacking in guided diffusion models**
+Diffusion and flow-based models have become the dominant paradigm for generative modeling. In many practical settings, through the Doob h-transform framework, additional guidance is employed at inference time to obtain samples which maximize a reward function. Despite the widespread use of reward guidance methods, it is known that they empirically suffer from reward hacking, where the guided model over-optimizes the reward function at the cost of previously learned structure. Still, the source of the reward hacking phenomenon remains poorly understood.
+
+In this talk, we carefully analyze the effect of two approximations to the Doob h-transform which are commonly made for computational feasibility: non-memoryless noise schedules and plug-in estimation of the Doob h-function. We demonstrate that even in the simple setting of a Gaussian target under a quadratic reward, these approximations lead to significant reward hacking. Further, we prove that exponentially many particles are required in the plug-in approximation to resolve the reward hacking problem in the tails of the distribution. We then extend our results to Gaussian mixtures and propose a simple schedule for the reward scale to mitigate within-mode reward hacking. Finally, we validate our theoretical results with experiments.
+
+This is a work in progress, done in collaboration with Nicholas Boffi.
 
 ### 03/09/2026 - JungHo Lee - Statistics and Data Science, CMU ###
 **Transporting policies across networks via Gromov-Wasserstein optimal transport**
