@@ -22,7 +22,6 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 03/23/2026 | Romain Lopez | NYU | TBA |
 | 04/06/2026 | Aram-Alexandre Pooladian | Yale | TBA |
 | 04/13/2026 | Nicolas Garcia Trillos | UW Madison | TBA |
 
