@@ -23,12 +23,19 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
 | 03/23/2026 | Romain Lopez | NYU | TBA |
-| 04/06/2026 | Aram-Alexandre Pooladian | NYU | Yale |
+| 04/06/2026 | Aram-Alexandre Pooladian | Yale | TBA |
 | 04/13/2026 | Nicolas Garcia Trillos | UW Madison | TBA |
 
 ---
 
 ## Next Talk
+**Modeling Complex System Dynamics with Flow Matching Across Time and Conditions**
+### 03/23/2026 -  Romain Lopez  - NYU, Courant Institute and Department of Biology ###
+
+Modeling the dynamics of complex real-world systems from temporal snapshot data is crucial for understanding phenomena such as gene regulation, climate change, and financial market fluctuations. Researchers have recently proposed a few methods based either on the Schroedinger Bridge or Flow Matching to tackle this problem, but these approaches remain limited in their ability to effectively combine data from multiple time points and different experimental settings. This integration is essential in real-world scenarios where observations from certain combinations of time points and experimental conditions are missing, either because of experimental costs or sensory failure. To address this challenge, we propose a novel method named Multi-Marginal Flow Matching (MMFM). MMFM first constructs a flow using smooth spline-based interpolation across time points and conditions and regresses it with a neural network using the classifier-free guided Flow Matching framework. This framework allows for the sharing of contextual information about the dynamics across multiple trajectories. We demonstrate the effectiveness of our method on both synthetic and real-world datasets, including a recent single-cell genomics data set with around a hundred chemical perturbations across time points. Our results show that MMFM significantly outperforms existing methods at imputing data at missing time points. 
+
+
+## Past Talks
 
 ### 03/16/2026 -  Sanjit Dandapanthula - CMU ###
 **Towards a theoretical understanding of reward hacking in guided diffusion models**
@@ -42,10 +49,7 @@ This is a work in progress, done in collaboration with Nicholas Boffi.
 **Transporting policies across networks via Gromov-Wasserstein optimal transport**
  We consider the problem of learning a treatment rule (policy) in a source population and deploying it in a different target population. This is challenging when the two populations differ substantially and units are connected within each population, since units are not directly comparable across networks and a policy’s welfare can depend on the network-wide treatment assignment pattern (interference). We discuss a potential approach based on Gromov-Wasserstein optimal transport for policy transfer in such settings. The key idea is to align the two populations using relational dissimilarities that (i) summarize interference-relevant structure, and (ii) provide the basis for constructing a Gromov-Wasserstein coupling between the source and target. This talk will mostly be informal.
 
-## Past Talks
-
 ### 02/23/2026 - Jiequn Han - Flatiron Institute ###
-
 **Generative Modeling without Clean Data: Self-Consistent Transport under Black-Box Corruptions**
 
 Generative modeling aims to learn an underlying data distribution from samples. In many scientific and engineering settings, however, clean samples are never observed; instead, data are available only after passing through a noisy, possibly nonlinear and ill-conditioned corruption channel. The challenge is therefore to learn a generative model for the clean distribution using only corrupted observations and access to the forward process.
