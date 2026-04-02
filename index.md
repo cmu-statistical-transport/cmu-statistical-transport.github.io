@@ -22,19 +22,22 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 04/06/2026 | Aram-Alexandre Pooladian | Yale | TBA |
 | 04/13/2026 | Nicolas Garcia Trillos | UW Madison | TBA |
 
 ---
 
 ## Next Talk
-**Modeling Complex System Dynamics with Flow Matching Across Time and Conditions**
-### 03/23/2026 -  Romain Lopez  - NYU, Courant Institute and Department of Biology ###
-
-Modeling the dynamics of complex real-world systems from temporal snapshot data is crucial for understanding phenomena such as gene regulation, climate change, and financial market fluctuations. Researchers have recently proposed a few methods based either on the Schroedinger Bridge or Flow Matching to tackle this problem, but these approaches remain limited in their ability to effectively combine data from multiple time points and different experimental settings. This integration is essential in real-world scenarios where observations from certain combinations of time points and experimental conditions are missing, either because of experimental costs or sensory failure. To address this challenge, we propose a novel method named Multi-Marginal Flow Matching (MMFM). MMFM first constructs a flow using smooth spline-based interpolation across time points and conditions and regresses it with a neural network using the classifier-free guided Flow Matching framework. This framework allows for the sharing of contextual information about the dynamics across multiple trajectories. We demonstrate the effectiveness of our method on both synthetic and real-world datasets, including a recent single-cell genomics data set with around a hundred chemical perturbations across time points. Our results show that MMFM significantly outperforms existing methods at imputing data at missing time points. 
+### 04/06/2026 -  Aram-Alexandre Pooladian  - Yale ###
+**Blind denoising diffusion models and the blessings of dimensionality**
+ We provide a mathematical theory for blind denoising diffusion models (BDDMs)---generative models based on denoisers where, crucially, the denoiser is not given the noise level in either the training or sampling stage. We show that when sampling via BDDMs, the noise level can be accurately estimated from a single noisy sample, provided that the intrinsic dimension of the data is sufficiently small compared to the ambient dimension. Consequently, we show that blind denoising diffusion models implicitly track a certain noise schedule along the diffusion, allowing us to justify their correctness as samplers. This joint work with Zahra Kadkhodaie, Sinho Chewi, and Eero Simoncelli (view on arXiv:2602.09639).
 
 
 ## Past Talks
+
+### 03/23/2026 -  Romain Lopez  - NYU, Courant Institute and Department of Biology ###
+**Modeling Complex System Dynamics with Flow Matching Across Time and Conditions**
+
+Modeling the dynamics of complex real-world systems from temporal snapshot data is crucial for understanding phenomena such as gene regulation, climate change, and financial market fluctuations. Researchers have recently proposed a few methods based either on the Schroedinger Bridge or Flow Matching to tackle this problem, but these approaches remain limited in their ability to effectively combine data from multiple time points and different experimental settings. This integration is essential in real-world scenarios where observations from certain combinations of time points and experimental conditions are missing, either because of experimental costs or sensory failure. To address this challenge, we propose a novel method named Multi-Marginal Flow Matching (MMFM). MMFM first constructs a flow using smooth spline-based interpolation across time points and conditions and regresses it with a neural network using the classifier-free guided Flow Matching framework. This framework allows for the sharing of contextual information about the dynamics across multiple trajectories. We demonstrate the effectiveness of our method on both synthetic and real-world datasets, including a recent single-cell genomics data set with around a hundred chemical perturbations across time points. Our results show that MMFM significantly outperforms existing methods at imputing data at missing time points. 
 
 ### 03/16/2026 -  Sanjit Dandapanthula - CMU ###
 **Towards a theoretical understanding of reward hacking in guided diffusion models**
