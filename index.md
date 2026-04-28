@@ -22,11 +22,21 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 04/13/2026 | Nicolas Garcia Trillos | UW Madison | TBA |
+| 05/11/2026 | Nick Boffi | CMU Math and ML | TBA |
+| 05/18/2026 | Katy Craig | UCSB Math | TBA |
 
 ---
 
 ## Next Talk
+
+
+## Past Talks
+### 04/20/2026 - Florian Gunsilius - Emory University, Department of Economics ###
+**Partial Identification with Schrödinger Bridges**
+
+In many empirical settings, the available data and maintained assumptions do not suffice to point-identify parameters of interest. Partial identification addresses this by characterizing sets guaranteed to contain the true parameter value, often through linear programs that optimize over models compatible with the observed data. These programs can become intractable when the relevant variables are multivalued or even continuous - a "curse of cardinality.'' We phrase these linear programs as optimal transport problems on the path space of hypothetical responses. This insight makes it possible to regularize the problem with an entropy penalty, recasting it as a multi-marginal Schrödinger bridge. We show the latter can be solved efficiently and without sampling via the Sinkhorn algorithm, even when all variables are continuous. We establish convergence of the regularized value to the sharpest bound, derive consistency rates for a plug-in estimator, and obtain its asymptotic distribution. The framework provides the first tractable, non-simulation-based method for computing sharp bounds in nonparametric partial identification problems defined via linear programs. One example are instrumental variable models with continuous treatments and instruments - a setting that has been out of reach for existing approaches.
+
+
 
 ### 04/13/2026 -  Nicolas Garcia Trillos  - UW Madison, Department of Statistics ###
 **Wasserstein-Cramér-Rao theory of unbiased estimation and tradeoffs between accuracy and robustness of estimators**
@@ -38,7 +48,7 @@ The quantity of interest in the classical Cramér-Rao theory of unbiased estimat
  We provide a mathematical theory for blind denoising diffusion models (BDDMs)---generative models based on denoisers where, crucially, the denoiser is not given the noise level in either the training or sampling stage. We show that when sampling via BDDMs, the noise level can be accurately estimated from a single noisy sample, provided that the intrinsic dimension of the data is sufficiently small compared to the ambient dimension. Consequently, we show that blind denoising diffusion models implicitly track a certain noise schedule along the diffusion, allowing us to justify their correctness as samplers. This joint work with Zahra Kadkhodaie, Sinho Chewi, and Eero Simoncelli (view on arXiv:2602.09639).
 
 
-## Past Talks
+
 
 ### 03/23/2026 -  Romain Lopez  - NYU, Courant Institute and Department of Biology ###
 **Modeling Complex System Dynamics with Flow Matching Across Time and Conditions**
