@@ -5,7 +5,7 @@ title: Home
 
 # Statistical Transport Talk Series
 
-**When:** Mondays at 1:00pm EST
+**When:** Wednesdays at 1:00pm EST
 **Where:** Hybrid - DeGroot Hall (Statistics Department, CMU) / Zoom
 
 ---
@@ -22,8 +22,8 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 05/11/2026 | Nick Boffi | CMU Math and ML | TBA |
-| 05/18/2026 | Katy Craig | UCSB Math | TBA |
+
+| 09/09/2026 | Tristan Saidi | CMU Stats & Data Science | TBA |
 
 ---
 
@@ -31,6 +31,12 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 
 ## Past Talks
+
+### 05/18/2026 -  Katy Craig - UCSB Math  ### 
+** Denoising with a Wasserstein Loss **
+
+A fundamental inverse problem in the experimental sciences is to recover an unknown distribution from measurements distorted by a known noise process. In many applications, including high energy particle physics, measurements are given by empirical measures on a high dimensional ground space, making classical binned methods, such as Richardson-Lucy deconvolution, computationally intractable. Motivated by these limitations, the present work studies an alternative formulation of the unfolding problem in which a Wasserstein loss quantifies the similarity between the measurements and the output of the noise model. We establish necessary and sufficient conditions for existence and uniqueness of optimizers and develop a provably convergent Sinkhorn algorithm to compute optimizers. Our algorithm requires only empirical observations of the noise model and measured data and scales with the size of the data, rather than the ambient dimension. Numerical experiments on one- and two-dimensional problems inspired by jet mass unfolding in particle physics demonstrate that the optimal transport approach offers robust, accurate performance compared to classical Richardson–Lucy deconvolution, particularly when binning artifacts are significant.
+
 ### 04/20/2026 - Florian Gunsilius - Emory University, Department of Economics ###
 **Partial Identification with Schrödinger Bridges**
 
@@ -133,7 +139,6 @@ In optimal transport, quadratic regularization (QOT) is an alternative to entrop
 - Larry Wasserman
 
 ### Students
-- Tomás Gonzalez
 - Tristan Saidi
 - Soheun Yi
 
@@ -141,7 +146,12 @@ In optimal transport, quadratic regularization (QOT) is an alternative to entrop
 
 ## Contact
 
-If you want to participate, attend, or present your work, please contact:
+If you want to participate, attend, or present your work, please contact the organizers:
 
 **Gonzalo Mena**
 Email: [gmena@andrew.cmu.edu](mailto:gmena@andrew.cmu.edu)
+**Tristan Saidi**
+Email: [tsaidi@andrew.cmu.edu](mailto:tsaidi@andrew.cmu.edu)
+**Soheun Yi**
+Email: [soheunyi@andrew.cmu.edu](mailto:tsaidi@andrew.cmu.edu)
+
