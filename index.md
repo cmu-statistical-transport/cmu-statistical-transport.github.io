@@ -21,11 +21,16 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 ## Upcoming Talks
 
 | Date | Speaker | Affiliation | Title |
-| 09/09/2026 | Tristan Saidi | CMU Stats & Data Science | TBA |
+| 09/09/2026 | Tristan Saidi | CMU Stats & Data Science | Second-order Sinkhorn Geometry for Applications in Statistics and Machine Learning |
+| 16/09/2026 | Sivaraman Balakrishan | CMU Stats & Data Science | TBA |
 
 ---
 
 ## Next Talk
+### 09/09/2026 - Tristan Saidi - CMU Stats & Data Science ###
+**Second-order Sinkhorn Geometry for Applications in Statistics and Machine Learning**
+
+Entropic optimal transport (EOT) has been widely studied and adopted due to its computational advantages over unregularized optimal transport, as well as the fact that many entropically regularized quantities admit root-n estimation. Unlike unregularized optimal transport, however, EOT does not naturally come equipped with a Riemannian interpretation. In this talk, I will discuss recent work by Lavenant et al. (2026) that proposes a geometry on the space of probability measures which provides a quadratic approximation to the Sinkhorn divergence, a central object in EOT. This construction admits a Riemannian interpretation and offers a promising framework for developing procedures on the space of probability measures that both rely on an underlying Riemannian geometry and retain favorable statistical properties such as root-n estimability. If time permits, I will also discuss ongoing work with collaborators aimed at developing the geometric and statistical infrastructure surrounding this framework.
 
 
 ## Past Talks
