@@ -23,6 +23,7 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 | Date | Speaker | Affiliation | Title |
 | 09/09/2026 | Tristan Saidi | CMU Stats & Data Science | Second-order Sinkhorn Geometry for Applications in Statistics and Machine Learning |
 | 16/09/2026 | Sivaraman Balakrishan | CMU Stats & Data Science | TBA |
+| 23/09/2026 | Soheun Yi | CMU Stats & Data Science | TBA |
 
 ---
 
