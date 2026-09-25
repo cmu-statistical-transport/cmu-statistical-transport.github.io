@@ -21,21 +21,40 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 ## Upcoming Talks
 
 | Date | Speaker | Affiliation | Title |
-| 09/09/2026 | Tristan Saidi | CMU Stats & Data Science | Second-order Sinkhorn Geometry for Applications in Statistics and Machine Learning |
-| 16/09/2026 | Sivaraman Balakrishan | CMU Stats & Data Science | TBA |
-| 23/09/2026 | Soheun Yi | CMU Stats & Data Science | TBA |
+| 30/09/2026 | Elias Hess-Childs | CMU Department of Mathematical Sciences | Radon--Wasserstein gradient flows for high-dimensional sampling |
 | 07/10/2026 | Adam Jaffe | Columbia University | TBA |
 
 ---
 
 ## Next Talk
+
+### 09/23/2026 - Elias Hess-Childs - CMU Department of Mathematical Sciences ###
+**Radon--Wasserstein gradient flows for high-dimensional sampling**
+
+Sampling from a probability measure known only through its unnormalized density is challenging, particularly in high dimensions. A prominent approach is to discretize gradient flows on the space of probability measures. Examples include Langevin Monte Carlo and Stein Variational Gradient Descent, which correspond to gradient flows of the Kullback--Leibler (KL) divergence under the Wasserstein and Stein geometries, respectively.
+
+In this talk, I will present recent work introducing a formal geometry on the space of measures: the Radon--Wasserstein geometry. Defined through the Radon transform, this geometry gives rise to KL gradient flows whose velocities depend only on one-dimensional projections. These flows exhibit two key features: they admit accurate interacting-particle approximations in high dimensions, and their per-step computational cost scales linearly in both the number of particles and the dimension.
+
+I will discuss theoretical results for these flows, including well-posedness and long-time convergence of the continuum equation, as well as numerical experiments illustrating their behavior and performance. Finally, I will describe extensions that yield affine-invariant algorithms.
+
+
+## Past Talks
+
+### 09/23/2026 - Gonzalo Mena - CMU Stats & Data Science ###
+**Statistical Rates for Entropic Optimal Transport in the Discrete to SubGaussian Regime**
+
+We study statistical rates in entropic optimal transport in the semi-discrete regime where one measure has finite support and the other is subGaussian. Our main result establishes parametric convergence rates for the empirical dual potentials to their population counterparts, with no dimension dependence in the leading term. Our result relies on tailored strong concavity analysis of the semi-dual objective, coupled with specialized bounds for the semi-discrete potentials. As a consequence, we obtain fast rates for downstream quantities derived from the optimal coupling. Chiefly,  the empirical barycentric projection achieves a squared-error rate $n^{-1}$, matching the fully compact case and improving over the less favorable $n^{-1/2}$ rate known for fully subGaussian settings. Altogether, these results may indicate a lower complexity adaptation phenomenon whereby the statistical complexity of the barycentric projection is governed by the discrete measure. As an application, we analyze Sinkhorn-EM, an EM-type algorithm in which the M-step is replaced by an entropic optimal transport problem. In a well-specified and balanced two-component Gaussian mixture model, we prove $\sqrt{n}$-consistency of the empirical iterates to their population counterparts for any fixed number of iterations, matching classical EM rates. Simulations support the theory.
+
+
+### 09/16/2026 - Sivaraman Balakrishnan - CMU Stats & Data Science ###
+**The Fundamental Limits of Valid Transport Map Estimation**
+
+I will discuss some simple upper and lower bounds on the sample complexity of estimating any valid map between a pair of distributions. I will then discuss some simple implications of these results.
+ 
 ### 09/09/2026 - Tristan Saidi - CMU Stats & Data Science ###
 **Second-order Sinkhorn Geometry for Applications in Statistics and Machine Learning**
 
 Entropic optimal transport (EOT) has been widely studied and adopted due to its computational advantages over unregularized optimal transport, as well as the fact that many entropically regularized quantities admit root-n estimation. Unlike unregularized optimal transport, however, EOT does not naturally come equipped with a Riemannian interpretation. In this talk, I will discuss recent work by Lavenant et al. (2026) that proposes a geometry on the space of probability measures which provides a quadratic approximation to the Sinkhorn divergence, a central object in EOT. This construction admits a Riemannian interpretation and offers a promising framework for developing procedures on the space of probability measures that both rely on an underlying Riemannian geometry and retain favorable statistical properties such as root-n estimability. If time permits, I will also discuss ongoing work with collaborators aimed at developing the geometric and statistical infrastructure surrounding this framework.
-
-
-## Past Talks
 
 ### 05/18/2026 -  Katy Craig - UCSB Math  ### 
 **Denoising with a Wasserstein Loss**
