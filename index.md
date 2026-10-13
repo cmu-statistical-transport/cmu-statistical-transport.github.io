@@ -21,14 +21,24 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 ## Upcoming Talks
 
 | Date | Speaker | Affiliation | Title |
-| 30/09/2026 | Elias Hess-Childs | CMU Department of Mathematical Sciences | Radon--Wasserstein gradient flows for high-dimensional sampling |
-| 07/10/2026 | Adam Jaffe | Columbia University | TBA |
+|------|---------|-------------|-------|
+| 10/21/2026 | Leigh Preimesberger | Carnegie Mellon University | TBA |
+| 10/28/2026 | Uriel Martinez Leon | New York University | TBA |
 
 ---
 
-## Next Talk
+## Past Talks
 
-### 09/23/2026 - Elias Hess-Childs - CMU Department of Mathematical Sciences ###
+### 10/07/2026 - Adam Jaffe - Columbia University ###
+**Constrained Denoising, Empirical Bayes, and Optimal Transport**
+
+In latent variables models, two important goals are denoising and deconvolution: denoising aims to estimate the latent variables, whereas deconvolution aims to estimate the distribution of the latent variables. As has been recognized in the literature over the last century, these two goals are fundamentally in tension, since denoising yields a poor estimate of the distribution of the latent variables due to shrinkage, and deconvolution yields a distribution-valued estimate that carries no unit-specific information.
+
+In this paper, we provide a systematic study of denoisers, and empirical Bayes approximations thereof, which attain optimal denoising error subject to the constraint that the distribution of the denoised data matches, in some sense, the distribution of the latent variables. Our insight is that optimal transport allows practitioners to navigate the tension between denoising and deconvolution.
+
+More precisely, we propose a modular methodology that combines any suitable unconstrained empirical Bayes denoiser (arising, e.g., via F-modeling, G-modeling, conjugate-parametric models) with any suitable information about the distribution of the latent variables (e.g., its moments, support, or an approximation of the entire distribution via deconvolution) into a single denoised data set. We prove explicit rates of convergence for our proposed methodologies, and we apply the resulting methods in applications in astronomy, baseball analytics, and marketing. Based on joint work with Nikolaos Ignatiadis and Bodhisattva Sen.
+
+### 09/30/2026 - Elias Hess-Childs - CMU Department of Mathematical Sciences ###
 **Radon--Wasserstein gradient flows for high-dimensional sampling**
 
 Sampling from a probability measure known only through its unnormalized density is challenging, particularly in high dimensions. A prominent approach is to discretize gradient flows on the space of probability measures. Examples include Langevin Monte Carlo and Stein Variational Gradient Descent, which correspond to gradient flows of the Kullback--Leibler (KL) divergence under the Wasserstein and Stein geometries, respectively.
@@ -37,8 +47,6 @@ In this talk, I will present recent work introducing a formal geometry on the sp
 
 I will discuss theoretical results for these flows, including well-posedness and long-time convergence of the continuum equation, as well as numerical experiments illustrating their behavior and performance. Finally, I will describe extensions that yield affine-invariant algorithms.
 
-
-## Past Talks
 
 ### 09/23/2026 - Gonzalo Mena - CMU Stats & Data Science ###
 **Statistical Rates for Entropic Optimal Transport in the Discrete to SubGaussian Regime**
