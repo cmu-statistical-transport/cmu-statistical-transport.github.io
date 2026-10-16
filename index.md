@@ -22,7 +22,7 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 10/21/2026 | Leigh Preimesberger | Carnegie Mellon University | TBA |
+| 10/21/2026 | Soheun Yi | Carnegie Mellon University | Minimax Estimation of Velocity Fields from Snapshots and Trajectories |
 | 10/28/2026 | Uriel Martinez Leon | New York University | TBA |
 
 ---
