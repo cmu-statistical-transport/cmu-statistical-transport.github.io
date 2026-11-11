@@ -25,6 +25,7 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 | 11/18/2026 | Stephen Huan | Carnegie Mellon University | TBA |
 | 12/02/2026 | Nina Vesseron | CREST, ENSAE – Institut Polytechnique de Paris | TBA |
 | 12/09/2026 | Alex Kokot | University of Washington | TBA |
+
 ---
 
 ## Past Talks
