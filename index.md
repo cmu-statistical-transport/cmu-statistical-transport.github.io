@@ -22,12 +22,40 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
-| 10/21/2026 | Soheun Yi | Carnegie Mellon University | Minimax Estimation of Velocity Fields from Snapshots and Trajectories |
-| 10/28/2026 | Uriel Martinez Leon | New York University | TBA |
-
+| 11/18/2026 | Stephen Huan | Carnegie Mellon University | TBA |
+| 12/02/2026 | Nina Vesseron | CREST, ENSAE – Institut Polytechnique de Paris | TBA |
+| 12/09/2026 | Alex Kokot | University of Washington | TBA |
 ---
 
 ## Past Talks
+
+### 11/11/2026 - Yoonhaeng Hur - Columbia ###
+**Point Matching with Distance Profiles: Robustness, Clusters, and Extensions**
+
+In many applications of matching, the point clouds to be matched are not merely unstructured sets of points but rather samples from distributions with an intrinsic cluster structure. In such cases, as individual points are often interchangeable within a coherent region, finding a robust region-to-region alignment is more desirable than establishing a precise point-to-point correspondence. We propose and study matching methods based on the notion of distance profiles, which was originally developed as a relaxation scheme to circumvent the computational difficulty of quadratic matching and the Gromov-Wasserstein (GW) distance. We first show that the statistical complexity of the distance profile procedure suffers from the curse of dimensionality in general; however, under the cluster structure, the number of clusters serves as the effective dimension, providing a fundamental insight into why this procedure can succeed in this setting. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a specific probabilistic setting. Next, we propose a novel approach for cluster-aware matching based on Laplacian Optimal Transport (LapOT). The key idea is to regularize the optimal transport problem with quadratic Laplacian terms constructed from similarity graphs of the point clouds, which encourages the optimal coupling to respect the cluster structure of both point sets. We also introduce Refined Simultaneous Clustering (RSC), a method that leverages the cluster-aware coupling obtained from LapOT to produce consistent partitions across the point sets, which can overcome the limitations of independent clustering and yield more stable and interpretable results. Lastly, we briefly introduce a higher-order extension of distance profiles and show that it forms a hierarchy converging to the GW distance. Based on joint work with Yuehaw Khoo, Nir Sharon, Gabriel Samberg, and Jinxin Wang.
+
+
+### 11/04/2026 - Leigh Preimesburger - CMU ###
+**Missing-data optimal transport with applications in cosmology and particle physics**
+
+In this talk, we consider the problem of estimating the optimal transport (OT) map between two distributions when one of the distributions is only partially observed. We propose an iterative OT algorithm for this setting based on input convex neural networks and demonstrate that it recovers the true solution on simple synthetic examples.
+
+Our original motivation was data-driven background modeling for di-Higgs production in the four-b-jet final state. There, the four-tag distribution is observed in the control region but not in the signal region, while an auxiliary three-tag distribution is observed in both. The goal is therefore to transport the three-tag distribution to the partially observed four-tag distribution, and to use the learned map to estimate the four-tag background in the signal region. On this problem, our method does not outperform the standard density-ratio approach. Because the transport map serves only as a means of estimating the background in that setting, this result led us to consider problems in which the transport map itself is the quantity of interest.
+
+Cosmology provides one such problem. OT has recently been used to reconstruct the early universe by relating the approximately uniform initial distribution of matter to its late-time distribution. Observational limits, however, censor faint objects, leaving an unobserved component often referred to as “dust.”  Existing approaches typically assume a model for the dust distribution, making the resulting transport map sensitive to that assumption.We discuss how our missing-data OT framework can learn the map without imposing such an assumption. This is work in progress with Mikael Kuusela and other collaborators, and its application to the cosmological dust problem is ongoing.
+
+
+### 10/28/2026 - Uriel Martinez Leon - NYU ###
+**Wasserstein least squares: geometry, statistics, and algorithms**
+
+We study Wasserstein least squares, a regression method with vector-valued covariates and distribution-valued responses. Unlike other approaches to distributional regression, it has a direct interpretation in terms of random variables, as a nonparametric analogue of the random-effects model.
+Using a strategy of Lavenant (2024), we show that it is the canonical extension of Euclidean least squares to the space of probability distributions from the perspective of convex analysis. This yields multimarginal and dual formulations that extend the corresponding theory for Wasserstein barycenters. On the statistical side, we show that, surprisingly, estimation is possible at the parametric n^{-1/2} rate under the template deformation model. As a special case, this gives rates for Wasserstein barycenters that are an exponential improvement over those of Ahidar-Coutrix, Le Gouic and Paris (2020).
+
+
+### 10/21/2026 - Soheun Yi - CMU ###
+**Minimax Estimation of Velocity Fields from Snapshots and Trajectories**
+
+Repeated snapshots of an evolving population reveal where its mass lies at each recorded time, but not how individual particles move in between. A velocity field supplies a local evolution rule describing how a particle would move between observation times. We study estimation of the tangent velocity field, the velocity of minimum kinetic energy compatible with the marginal curve. For the snapshot experiment, in which $N$ independent samples are observed at each of $M$ regularly spaced times, we establish the minimax estimation rate and construct an estimator attaining it by minimizing a quadratic criterion. We connect velocity estimation with optimal transport map estimation by showing that an estimator based on optimal transport maps between nearby marginals converges to the quadratic estimator as the time interval shrinks. We then derive the minimax rate for the trajectory experiment, in which the same $N$ particles are observed at all $M$ times along trajectories generated by the tangent velocity field. Neither experiment uniformly dominates the other across all allocations $(M, N)$, but under a common recorded-position budget $M N\asymp B$, optimal allocation yields a strictly faster rate for trajectory data. Finally, we give a practical implementation of the quadratic estimator using general finite-dimensional bases for a potential whose gradient gives the velocity, with tuning parameters selected by cross validation, and present numerical experiments.
 
 ### 10/07/2026 - Adam Jaffe - Columbia University ###
 **Constrained Denoising, Empirical Bayes, and Optimal Transport**
