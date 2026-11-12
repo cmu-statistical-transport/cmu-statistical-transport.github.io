@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#c41230">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {%- feed_meta -%}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="group-illustration" href="{{ '/' | relative_url }}" aria-label="Statistical Transport home">
+          <img src="{{ '/assets/images/cmu-flow-soheun.png' | relative_url }}" alt="Red particles form CMU, connected by transport paths. Statistical Optimal Transport Research Group." width="2550" height="1120" fetchpriority="high">
+        </a>
+        <div class="header-content">
+        <div class="institution-brand">
+          <a class="university-link" href="https://www.cmu.edu/" aria-label="Carnegie Mellon University">
+            <img class="university-wordmark" src="{{ '/assets/images/cmu-wordmark.svg' | relative_url }}" alt="Carnegie Mellon University" width="240" height="22">
+          </a>
+          <a class="department-link" href="https://www.cmu.edu/dietrich/statistics-datascience/">
+            <span class="department-label">Department of</span>
+            <span>Statistics &amp; Data Science</span>
+          </a>
+        </div>
+        <nav class="navigation" aria-label="Main navigation">
+          <a href="#upcoming-talks">Upcoming</a>
+          <a href="#past-talks">Past talks</a>
+          <a href="#members">Members</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        </div>
+      </div>
+    </header>
+    <main class="container" id="main" tabindex="-1">
+      {{ content }}
+    </main>
+    <footer class="site-footer container">
+      <div class="footer-inner">
+        <div>
+          <p><a href="https://www.cmu.edu/dietrich/statistics-datascience/">Statistics &amp; Data Science</a><span class="footer-divider" aria-hidden="true"> / </span><span>Carnegie Mellon University</span></p>
+          <p class="footer-credit">Parts of this website’s format were adapted with permission from the <a href="https://cmu-causal-inference.github.io/">CMU Causal Inference group</a>.</p>
+        </div>
+        <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>

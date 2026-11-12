@@ -3,22 +3,29 @@ layout: default
 title: Home
 ---
 
-# Statistical Transport Talk Series
+<section class="series-hero" aria-labelledby="series-title">
+  <div class="hero-copy">
+    <p class="eyebrow">Carnegie Mellon University</p>
+    <h1 class="series-title" id="series-title">Statistical Transport <em>Talk Series</em></h1>
+  </div>
+  <div class="meeting-details">
+    <p><strong>When</strong><br>Wednesdays at 1:00pm EST</p>
+    <p><strong>Where</strong><br>Hybrid — DeGroot Hall<br>Statistics Department, CMU / Zoom</p>
+  </div>
+</section>
 
-**When:** Wednesdays at 1:00pm EST
-**Where:** Hybrid - DeGroot Hall (Statistics Department, CMU) / Zoom
-
----
-
-## About
+<section class="content-section about-section" aria-labelledby="about" markdown="1">
+<h2 id="about">About</h2>
+<div class="section-body" markdown="1">
 
 We are a group of students and faculty at (mostly) the Department of Statistics and Data Science at CMU interested in discussing the role of transport maps in statistics and machine learning. A non-exhaustive list of topics we have been reviewing are: statistical theory (rates of convergence), trajectory inference, applications to causal inference and genomics.
 
----
+</div>
+</section>
 
-
-
-## Upcoming Talks
+<section class="content-section upcoming-talks-section" aria-labelledby="upcoming-talks" markdown="1">
+<h2 id="upcoming-talks">Upcoming Talks</h2>
+<div class="section-body schedule" role="region" aria-label="Upcoming talks schedule" tabindex="0" markdown="1">
 
 | Date | Speaker | Affiliation | Title |
 |------|---------|-------------|-------|
@@ -26,9 +33,12 @@ We are a group of students and faculty at (mostly) the Department of Statistics 
 | 12/02/2026 | Nina Vesseron | CREST, ENSAE – Institut Polytechnique de Paris | TBA |
 | 12/09/2026 | Alex Kokot | University of Washington | TBA |
 
----
+</div>
+</section>
 
-## Past Talks
+<section class="content-section past-talks-section" aria-labelledby="past-talks" markdown="1">
+<h2 id="past-talks">Past Talks</h2>
+<div class="section-body" markdown="1">
 
 ### 11/11/2026 - Yoonhaeng Hur - Columbia ###
 **Point Matching with Distance Profiles: Robustness, Clusters, and Extensions**
@@ -187,9 +197,12 @@ In optimal transport, quadratic regularization (QOT) is an alternative to entrop
 ### 09/25/2025 - Sanjit Dandapanthula - CMU, Department of Statistics and Data Science ### 
 **Gromov-Wasserstein distances between Gaussian distributions**
 
----
+</div>
+</section>
 
-## Members
+<section class="content-section members-section" aria-labelledby="members" markdown="1">
+<h2 id="members">Members</h2>
+<div class="section-body" markdown="1">
 
 ### Faculty
 - Sivaraman Balakrishnan
@@ -197,15 +210,23 @@ In optimal transport, quadratic regularization (QOT) is an alternative to entrop
 - Arun Kumar Kuchibhotla
 - Mikael Kuusela
 - Gonzalo Mena
+- Dejan Slepcev
 - Larry Wasserman
 
+### Postdocs
+- Andres Riveros
+
 ### Students
+- Leigh Preimesberger
 - Tristan Saidi
 - Soheun Yi
 
----
+</div>
+</section>
 
-## Contact
+<section class="content-section contact-section" aria-labelledby="contact" markdown="1">
+<h2 id="contact">Contact</h2>
+<div class="section-body" markdown="1">
 
 If you want to participate, attend, or present your work, please contact the organizers:
 
@@ -216,3 +237,5 @@ Email: [tsaidi@andrew.cmu.edu](mailto:tsaidi@andrew.cmu.edu)
 **Soheun Yi**
 Email: [soheunyi@andrew.cmu.edu](mailto:tsaidi@andrew.cmu.edu)
 
+</div>
+</section>
